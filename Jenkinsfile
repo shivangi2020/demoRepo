@@ -8,7 +8,7 @@ pipeline {
     }
     
     stages {
-        stage('Build Code') {
+        stage('Clone Code') {
             steps {
                 // Get some code from a GitHub repository
                 git 'https://github.com/shivangi2020/My_project.git'           
